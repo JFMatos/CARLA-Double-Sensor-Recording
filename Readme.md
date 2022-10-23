@@ -37,7 +37,7 @@ pip2 install carla
 ## Running CARLA
 
 **Run the server side**<br>
-By default CARLA runs on localhost with the port 2000.
+By default CARLA runs on localhost with the port 2000.<br>
 Linux
 ```sh
 cd path/to/carla/root
@@ -59,7 +59,7 @@ cd PythonAPI\util
 ```
 
 **Generate traffic on CARLA world**<br>
-By default will generate 30 vehicles and 10 pedestrians, but can be changed specifying the values with the arguments '-n' '-w' respectively
+By default will generate 30 vehicles and 10 pedestrians, but can be changed specifying the values with the arguments '-n' '-w' respectively.
 ```sh
 cd PythonAPI\examples
 python generate_traffic.py
