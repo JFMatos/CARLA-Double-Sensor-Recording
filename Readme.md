@@ -6,12 +6,12 @@
 
 ## Installation
 
-**REQUIRED**
+**REQUIRED**<br>
 - Windows or Linux OS
 - Python versions 2.7, 3.6, 3.7, and 3.8
 
 
-**Install the Pygame and Numpy.**
+**Install the Pygame and Numpy.**<br>
 
 ```sh
 pip3 install --user pygame numpy
@@ -24,10 +24,10 @@ pip2 install --user pygame numpy
 [CARLA Repository](https://github.com/carla-simulator/carla/blob/master/Docs/download.md) 
 
 
-**Import additional assets (Optional)**
+**Import additional assets (Optional)**<br>
 This adicitional assets includes the maps Town06, Town07, and Town10.
 
-**Install CARLA Python package**
+**Install CARLA Python package**<br>
 ```sh
 pip3 install carla
 or
@@ -36,7 +36,7 @@ pip2 install carla
 
 ## Running CARLA
 
-**Run the server side**
+**Run the server side**<br>
 By default CARLA runs on localhost with the port 2000.
 Linux
 ```sh
@@ -49,7 +49,7 @@ cd path/to/carla/root
 CarlaUE4.exe
 ```
 
-**Configuration of the CARLA server**
+**Configuration of the CARLA server**<br>
 ```sh
 cd PythonAPI\util
 ./config.py --no-rendering      # Disable rendering
@@ -58,14 +58,14 @@ cd PythonAPI\util
 ./config.py --help # Check all the available configuration options
 ```
 
-**Generate traffic on CARLA world**
+**Generate traffic on CARLA world**<br>
 By default will generate 30 vehicles and 10 pedestrians, but can be changed specifying the values with the arguments '-n' '-w' respectively
 ```sh
 cd PythonAPI\examples
 python generate_traffic.py
 ```
 
-**Run CARLA client side**
+**Run CARLA client side**<br>
 The script 'PythonAPI\examples\manual_control.py' is able to perform a client side connection to the server and spawn a car that we are able to control or autopilot and record images from any sensor available.<br>
 Decided to modify this script and create 'custom_manual_control.py' in order to be able to record any non RGB sensor simultaneously and the RGB sensor at the same time.<br>
 Run the script:
