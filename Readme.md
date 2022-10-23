@@ -20,7 +20,7 @@ pip2 install --user pygame numpy
 ```
 
 **Download CARLA repository**<br>
-(This tutorial was done and tested on version 0.9.13, but you are free to try on newer releases)
+(This tutorial was done and tested on version 0.9.13, but you are free to try on newer releases)<br>
 [CARLA Repository](https://github.com/carla-simulator/carla/blob/master/Docs/download.md) 
 
 
