@@ -66,8 +66,8 @@ python generate_traffic.py
 ```
 
 **Run CARLA client side**
-The script 'PythonAPI\examples\manual_control.py' is able to perform a client side connection to the server and spawn a car that we are able to control or autopilot and record images from any sensor available.
-Decided to modify this script and create 'custom_manual_control.py' in order to be able to record any non RGB sensor simultaneously and the RGB sensor at the same time.
+The script 'PythonAPI\examples\manual_control.py' is able to perform a client side connection to the server and spawn a car that we are able to control or autopilot and record images from any sensor available.<br>
+Decided to modify this script and create 'custom_manual_control.py' in order to be able to record any non RGB sensor simultaneously and the RGB sensor at the same time.<br>
 Run the script:
 ```sh
 cd PythonAPI\examples
@@ -132,5 +132,6 @@ When images are recorded from the 'custom_manual_control.py' will be saved on th
 | 'Optical Flow | 'OpticalFlow_out/' |
 
 **Important Notes**
+<br>
 When recording is advisable to run the client script with the --sync argument, in this way the client runs synchronously with the server, having the same tickrate will help the multiple sensors capture images the same frames (most of the times).
 Having the problem of two sensors recording images from different frames may invalidate the data to be used for deep learning purposes, so to solve this issue was added the behaviour that will look at both the RGB and Semantic Segmentation (CityScapes Palette) directories (by default), try find any image frame that exist only in one of them, if exists will be deleted and is triggered when the recorded is stopped during the driving simulation. If by any reason the driving simulation or the server closes during the recording of images frames, the script 'clean_saved_images.py' can be executed and will perform the same verification on two different sensor images save drectories.
