@@ -25,7 +25,14 @@ pip2 install --user pygame numpy
 
 
 **Import additional assets (Optional)**<br>
-This adicitional assets includes the maps Town06, Town07, and Town10.
+This adicitional assets includes the maps Town06, Town07, and Town10.<br>
+Linux
+```sh
+cd path/to/carla/root
+./ImportAssets.sh
+```
+Windows
+- Extract the contents directly in the root folder.
 
 **Install CARLA Python package**<br>
 ```sh
