@@ -134,9 +134,9 @@ When images are recorded from the 'custom_manual_control.py' will be saved on th
 | Camera Instance Segmentation (CityScapes Palette) | 'IS_CityScapes_out/' |
 | Camera Instance Segmentation (Raw) | 'IS_Raw_out/' |
 | Lidar (Ray-Cast) | 'LiDAR_out/' |
-| 'Dynamic Vision Sensor' | 'Dynamic_Sensor_out/' |
+| Dynamic Vision Sensor | 'Dynamic_Sensor_out/' |
 | Camera RGB Distorted | 'RGB_Distorted_out/' |
-| 'Optical Flow | 'OpticalFlow_out/' |
+| Optical Flow | 'OpticalFlow_out/' |
 
 **Important Notes**
 <br>
